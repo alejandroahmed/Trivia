@@ -1,0 +1,37 @@
+.titulo{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.sctgs {
+    border: 3px black solid;
+    display: flex;
+    width: 325px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 30px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tarjetas {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 60px;
+  }
+
+  .sctgs:hover {
+    transform: translate(0, 7px);
+    box-shadow: 10px 15px 19px #053609;
+    transition: all 250ms;
+  }
+
+  body{
+    background-color: #648767;
+  }
