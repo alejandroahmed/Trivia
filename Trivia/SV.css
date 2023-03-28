@@ -5,6 +5,13 @@
     color: rgb(0, 0, 0);
 }
 
+  .flecha{
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 25px;
+  }
+
 .sctgs {
     border: 3px black solid;
     display: flex;
