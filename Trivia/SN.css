@@ -1,0 +1,43 @@
+body {
+    background-color: #7887F7;
+  }
+  
+  .flecha{
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 25px;
+  }
+  
+  .t{
+      text-align: center;
+      font-size: 80px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #000000;
+  }
+  
+  .sctgs {
+      border: 3px black solid;
+      width: 390px;
+      height: 200px;
+      border-radius: 20px;
+      margin-left: 8px;
+      margin-right: 8px;
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+  
+    .tarjetas {
+      justify-content: space-around;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      padding: 60px;
+    }
+  
+    .sctgs:hover {
+      transform: translate(0, 7px);
+      box-shadow: 10px 15px 19px #070d3b;
+      transition: all 250ms;
+    }
+  
